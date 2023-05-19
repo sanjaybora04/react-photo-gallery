@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <img
                 className="h-8 w-8"
-                src="https://via.placeholder.com/32"
+                src="https://cdn-icons-png.flaticon.com/512/187/187891.png?w=740&t=st=1684490397~exp=1684490997~hmac=e81b32ab01fc4baf483f9e7c4d78bde77692678ae1870582baa082e3f22ec4f8"
                 alt=""
               />
             </div>
