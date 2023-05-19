@@ -1,4 +1,4 @@
-# [Demo](https://silver-dragon-b427c8.netlify.app/)
+# [Demo](https://dancing-valkyrie-9a3ccd.netlify.app/)
 # How to run :-
 ```
 git clone https://github.com/sanjaybora04/react-photo-gallery
