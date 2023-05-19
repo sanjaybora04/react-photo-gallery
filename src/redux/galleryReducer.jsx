@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import axios from 'axios';
 
-const ACCESS_KEY = "AIeewmfycjoWRJ5HfjlbhI7BBqJtBqHDVALc3jQhJAQ";
+const ACCESS_KEY = "i9uH1zftaq2Caq9RsRhoI7G-9dTPT1RMewbo4mrg2p0";
 
 const getImages = createAsyncThunk(
   'gallery/getImages',

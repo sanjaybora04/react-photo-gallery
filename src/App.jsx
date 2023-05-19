@@ -53,7 +53,7 @@ const PhotoGallery = () => {
         {pages.map((page, index) => (
           <div key={index}>
             {page.map((photo) => (
-              <div key={photo.id} className="relative m-auto pb-4 flex flex-wrap justify-center transition-all duration-500 hover:bg-indigo-200 hover:p-4">
+              <div key={photo.id} className="relative m-auto pb-4 justify-center transition-all duration-500 hover:bg-indigo-200 hover:p-4">
                 <div className="absolute top-0 right-0">
                   <button onClick={() => dispatch(like(photo.id))}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={"w-6 h-6 hover:text-red-700 hover:fill-red-700 " + (photo.liked_by_user ? "text-red-500 fill-red-500" : "text-red-300 fill-red-300")}>
